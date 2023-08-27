@@ -1,0 +1,48 @@
+[
+    {
+    "id": 1,
+    "question": "What is the capital of Belgium?",
+    "a": "Vienna",
+    "b": "Berlin",
+    "c": "Brussels",
+    "answer": "c"
+},
+{
+    "id": 2,
+    "question": "What is the capital of Australia?",
+    "a": "Vienna",
+    "b": "Canberra",
+    "c": "Brussels",
+    "d": "Prague",
+    "answer": "b"
+},
+
+{
+    "id": 3,
+    "question": "Which of the following countries is not a part of Melanesia region in the pacific ocean?",
+    "a": "Vanuatu",
+    "b": "Solomon Islands",
+    "c": "Fiji",
+    "d": "Kiribati",
+    "answer": "d"
+},
+{
+    "id": 4,
+    "question": "Which day is celebrated as International Literacy Day ?",
+    "a": "8 September",
+    "b": "7 July",
+    "c": "19 April",
+    "d": "28 June",
+    "answer": "a"
+},
+{
+    "id": 5,
+    "question": "Which day is celebrated as World Environment Day?",
+    "a": "16 May",
+    "b": "5 June",
+    "c": "17July",
+    "d": "18 December",
+    "answer": "b"
+}
+
+]
