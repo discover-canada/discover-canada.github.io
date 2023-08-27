@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host=0.0.0.0 --disable-host-check",
-    "build": "ng build --configuration production --output-path=./dist/discover-canada --base-href=https://beligh-hamdi.github.io/discover-canada",
+    "build": "ng build --configuration production --output-path=./dist/discover-canada --base-href=https://discover-canada.github.io",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
