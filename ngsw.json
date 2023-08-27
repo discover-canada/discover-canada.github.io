@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1693117747252,
+  "timestamp": 1693155805088,
   "index": "https://discover-canada.github.io/index.html",
   "assetGroups": [
     {
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://discover-canada.github.io/351.1daee877cbeeef88.js",
         "https://discover-canada.github.io/361.754c0258334b610b.js",
-        "https://discover-canada.github.io/418.6435fee571b99803.js",
-        "https://discover-canada.github.io/761.452307a7f35d7b72.js",
-        "https://discover-canada.github.io/899.cb8598225d3512d4.js",
+        "https://discover-canada.github.io/418.7f7282fb1869d670.js",
+        "https://discover-canada.github.io/761.f5645c9b0dcc123d.js",
         "https://discover-canada.github.io/favicon.ico",
         "https://discover-canada.github.io/index.html",
-        "https://discover-canada.github.io/main.b252cd615cb33bac.js",
+        "https://discover-canada.github.io/main.8612857d7274f320.js",
         "https://discover-canada.github.io/manifest.webmanifest",
         "https://discover-canada.github.io/polyfills.3f614a9e45a065db.js",
-        "https://discover-canada.github.io/runtime.103cf5560f94e95a.js",
+        "https://discover-canada.github.io/runtime.6c7e55fc9ba31585.js",
         "https://discover-canada.github.io/styles.6507e0fc35322572.css"
       ],
       "patterns": []
@@ -36,6 +36,8 @@
         "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-billingual.mp3",
         "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-eng.mp3",
         "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-fra.mp3",
+        "https://discover-canada.github.io/assets/data/decouvrir.pdf",
+        "https://discover-canada.github.io/assets/data/questions copy.json",
         "https://discover-canada.github.io/assets/data/questions.json",
         "https://discover-canada.github.io/assets/icons/icon-128x128.png",
         "https://discover-canada.github.io/assets/icons/icon-144x144.png",
@@ -51,14 +53,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://discover-canada.github.io/351.1daee877cbeeef88.js": "570d8563064637a79a1dcf430253e9347f404e20",
     "https://discover-canada.github.io/361.754c0258334b610b.js": "95a68b254edde5eed162a0695ae8d4ff29a65779",
-    "https://discover-canada.github.io/418.6435fee571b99803.js": "18cd294baa76039d50373c34cf85a9134bfb3baa",
-    "https://discover-canada.github.io/761.452307a7f35d7b72.js": "be5dc5d3a1347b586724db726850247ee0c3c157",
-    "https://discover-canada.github.io/899.cb8598225d3512d4.js": "80d3be998c4c228d403c30e86c46372e51e64a98",
+    "https://discover-canada.github.io/418.7f7282fb1869d670.js": "c50e79cd74ff9c5568b9ac2b748339d7c9f3cd4e",
+    "https://discover-canada.github.io/761.f5645c9b0dcc123d.js": "88339818f5909bea7f0c2041eaea569acf4eed04",
     "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-billingual.mp3": "d0edb931e2248c7d43a07c81ca70f5ad499f1d2b",
     "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-eng.mp3": "223fec89aa572749fc00ef7db3ace9f36a578357",
     "https://discover-canada.github.io/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-fra.mp3": "eeafd9703dddc8a739d743ccf0d00ba9e6a1ed76",
-    "https://discover-canada.github.io/assets/data/questions.json": "7feda41013d43ede29a36c6d68aeb1e9794adea6",
+    "https://discover-canada.github.io/assets/data/decouvrir.pdf": "9214c7a3276b525d059940f707620bc692d53ba3",
+    "https://discover-canada.github.io/assets/data/questions copy.json": "162a7b7ee6eb5aa917669010073e651df9a1724b",
+    "https://discover-canada.github.io/assets/data/questions.json": "54293540c1b8d67a7a06294211e844118f68c23b",
     "https://discover-canada.github.io/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
     "https://discover-canada.github.io/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
     "https://discover-canada.github.io/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
@@ -68,11 +72,11 @@
     "https://discover-canada.github.io/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://discover-canada.github.io/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://discover-canada.github.io/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://discover-canada.github.io/index.html": "09d22294ed1ec3fa67a89ae4d9d1d5d6192c784e",
-    "https://discover-canada.github.io/main.b252cd615cb33bac.js": "eaa5f638e82b757820f3850794dc36139eaf3c44",
+    "https://discover-canada.github.io/index.html": "8dee9a354e2f65ccf346b08afac94bad47749013",
+    "https://discover-canada.github.io/main.8612857d7274f320.js": "d73df70a7a484fc1624e4de1ac2d2b424030a152",
     "https://discover-canada.github.io/manifest.webmanifest": "8e8adc11c04228e81027a836c9ed0f7b68f54a8b",
     "https://discover-canada.github.io/polyfills.3f614a9e45a065db.js": "8833e602539f85f4764e17adae878891b454d85b",
-    "https://discover-canada.github.io/runtime.103cf5560f94e95a.js": "1c3d5a8c7c4211a285b3b3ef56da21355fd5b1c4",
+    "https://discover-canada.github.io/runtime.6c7e55fc9ba31585.js": "56f179397d7824248eee422b898a46b45875e577",
     "https://discover-canada.github.io/styles.6507e0fc35322572.css": "1c428c356d3ad7dd744d877cb29ee6f7ce441188"
   },
   "navigationUrls": [

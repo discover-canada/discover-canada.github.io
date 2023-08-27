@@ -1,132 +1,176 @@
 [
     {
-        "id": 1,
-        "category": "economy",
-        "question": "Quand le Canada a-t-il commencé à commercer librement avec les États-Unis ?",
-        "a": "En 1980.",
-        "b": "En 1988",
-        "c": "En 1990.",
-        "d": "En 2000",
-        "answer": "b"
+       "id":1,
+       "question":"Que signifie 'fédéralisme'? ",
+       "a":"Le gouvernement fédéral assume la responsabilité de certaines question",
+       "b":"Le Canada est un pays fédéral ",
+       "c":"Les différentes provinces peuvent adopter des politiques adaptées à leurs populations ",
+       "d":"Le gouvernement fédéral prend la décision finale en toute matière ",
+       "answer":"c"
     },
     {
-        "id": 2,
-        "category": "economy",
-        "question": "Trois pays sont membres de l'ALENA (Accord de libre-échange nord-américain). Lesquels ?",
-        "a": "Mexique, États-Unis et Canada.",
-        "b": "France, États-Unis et Canada.",
-        "c": "Royaume-Uni, États-Unis et Canada.",
-        "d": "Chine, États-Unis et Canada.",
-        "answer": "a"
+       "id":2,
+       "question":"énumérez six responsabilités de citoyen ",
+       "a":"Voter, adhérer à un parti politique, trouver du travail, respecter la loi, conduire prudemment, ramasser les rebuts ",
+       "b":"Voter, aider les autres, protéger notre patrimoine et notre environnement, respecter les lois canadiennes, respecter les droits des autres, éliminer l'injustice ",
+       "c":"Trouver du travail, gagner de l'argent, élever une famille, payer ses impôts, tondre sa pelouse, voter ",
+       "d":"Protéger l'environnement, ne pas jeter d'ordures, payer ses impôts, respecter la loi, aider les autres, respecter les autres ",
+       "answer":"b"
     },
     {
-        "id": 3,
-        "category": "economy",
-        "question": "Nommez quelques pays du G7",
-        "a": "États-Unis, Allemagne, Royaume-Uni, Italie, France, Japon et Canada.",
-        "b": "États-Unis, Chine, Royaume-Uni, Italie, France, Japon et Canada.",
-        "c": "États-Unis, Russie, Royaume-Uni, Italie, France, Japon et Canada.",
-        "d": "États-Unis, Allemagne, Royaume-Uni, Chine, France, Japon et Canada.",
-        "answer": "a"
+       "id":3,
+       "question":"Quel est le sens de l'expression 'la plus longue frontière au monde non-gardée'?",
+       "a":"Le Canada exporte des milliards de dollars de produits énergétiques vers les états-Unis ",
+       "b":"Des millions de canadiens et d'américains traversent la frontière chaque année en toute sécurité. ",
+       "c":"Plus de trois quarts des exportations du Canada sont destinées aux États-Unis ",
+       "d":"Le Canada entretient des relations étroites avec les États-Unis ",
+       "answer":"b"
     },
     {
-        "id": 4,
-        "category": "economy",
-        "question": "Quels sont les trois principaux secteurs industriels de l'économie canadienne ?",
-        "a": "Secteur des services, secteur manufacturier, l'agriculture",
-        "b": "Secteur des services, l'agriculture, secteur des ressources naturelles.",
-        "c": "Secteur des services, secteur manufacturier, secteur des ressources naturelles.",
-        "d": "l'agriculture, secteur manufacturier, secteur des ressources naturelles.",
-        "answer": "c"
+       "id": 4,
+       "question":"Pour devenir loi, chaque projet de loi doit être accepté par les deux Chambres et recevoir ",
+       "a":"la sanction royale ",
+       "b":"le consentement royal ",
+       "c":"l'assention royale ",
+       "d":"l'accord royal ",
+       "answer":"a"
     },
     {
-        "id": 5,
-        "category": "economy",
-        "question": "Quelle est la proportion de Canadiens et Canadiennes qui occupent présentement un emploi dans le secteur des services ?",
-        "a": "10%",
-        "b": "20%",
-        "c": "50%",
-        "d": "Plus de 75%.",
-        "answer": "d"
+       "id": 5,
+       "question":"Les Canadiens peuvent seulement vivre et travailler dans leur province.",
+       "a":"FAUX ",
+       "b":"VRAI ",
+       "answer":"a"
     },
     {
-        "id": 6,
-        "category": "economy",
-        "question": "Quel pays est le plus grand partenaire commercial international du Canada ?",
-        "a": "La France",
-        "b": "Les États-Unis.",
-        "c": "La Chine",
-        "d": "Le Royaume-Uni",
-        "answer": "b"
+       "id": 6,
+       "question":"Comment appelle-t-on les partis qui ne sont pas au pouvoir ?",
+       "a":"Sans pouvoir ",
+       "b":"Les candidats ",
+       "c":"Hors du pouvoir ",
+       "d":"Les partis d'opposition ",
+       "answer":"d"
     },
     {
-        "id": 7,
-        "category": "economy",
-        "question": "Quel genre de marchandises contribuent en grande partie aux exportations du Canada ?",
-        "a": "Produits des ressources naturelles.",
-        "b": "Produits Agricoles",
-        "c": "manufacturier",
-        "d": "Les services",
-        "answer": "a"
+       "id": 7,
+       "question":"La seule monarchie constitutionnelle en Amérique du Nord est ",
+       "a":"le Mexique",
+       "b":"l'Alaska ",
+       "c":"le Canada ",
+       "d":"les états-Unis ",
+       "answer":"c"
     },
     {
-        "id": 8,
-        "category": "economy",
-        "question": "Quel pays est le plus grand partenaire commercial des États-Unis ?",
-        "a": "La Chine",
-        "b": "Le Canada.",
-        "c": "La France",
-        "d": "Le Royaume-Uni",
-        "answer": "b"
+       "id": 8,
+       "question":"Lequel des énoncés suivants relève-t-il de la responsabilité du gouvernements provinciaux?",
+       "a":"Du commerce interprovincial et des communications ",
+       "b":"De La défense",
+       "c":"Des autoroutes ",
+       "d":"De la monnaie ",
+       "answer":"c"
     },
     {
-        "id": 9,
-        "category": "economy",
-        "question": "Quelle proportion des marchandises exportées par le Canada vont aux États-Unis ?",
-        "a": "30%.",
-        "b": "50%.",
-        "c": "75%.",
-        "d": "90%.",
-        "answer": "c"
+       "id": 9,
+       "question":"Qui établit les lois ou les règles écrites régissant le Canada? ",
+       "a":"Elles sont faites par des représentants élus ",
+       "b":"Elles sont faites par le Premier Ministre et le Cabinet ",
+       "c":"Elles sont faites par le Premier Ministre ",
+       "d":"Elles sont faites par la Cour Suprême du Canada ",
+       "answer":"a"
     },
     {
-        "id": 10,
-        "category": "economy",
-        "question": "Deux pays entretiennent la plus importante relation commerciale bilatérale du monde. Lesquels ?",
-        "a": "Le Canada et les États-Unis.",
-        "b": "Le Canada et la France",
-        "c": "Le Canada et le Royaume-Uni",
-        "d": "Le Canada et la Chine",
-        "answer": "a"
+       "id": 10,
+       "question":"Les Premières Nations ont des chefs de bande et des conseillers qui ont de grandes responsabilités dans les réserves des Premières Nations, notamment dans le domaine du logement, des écoles et d'autres services.",
+       "a":"VRAI ",
+       "b":"FAUX ",
+       "answer":"a"
     },
     {
-        "id": 11,
-        "category": "economy",
-        "question": "Quelle frontière est « la plus longue frontière non défendue du monde ».",
-        "a": "La frontière entre les États-Unis et le Mexique",
-        "b": "La frontière entre le Canada et les États-Unis.",
-        "c": "La frontière entre la Chine et la Russie",
-        "d": "La frontière entre la Chine et l'Inde",
-        "answer": "b"
+       "id": 11,
+       "question":"Fatima est une nouvelle immigrante au CanadQuelle loi lui permet d'occuper un emploi à l'égal d'un homme?",
+       "a":"égalité des droits.",
+       "b":"L'égalité des femmes et des hommes ",
+       "c":"L'égalité de toutes les races ",
+       "d":"À travail égal, rémunération égale",
+       "answer":"b"
     },
     {
-        "id": 12,
-        "category": "economy",
-        "question": "Quels mots sont écrits sur l'Arche de la paix aux États-Unis ?",
-        "a": "Children of a common mother” (Enfants d'une même mère) et “Brethren dwelling together in unity (Deux frères vivant ensemble dans l'harmonie).",
-        "b": "Rien",
-        "c": "Welcome to Canadians",
-        "d": "Welcome to Americans",
-        "answer": "a"
+       "id": 12,
+       "question":"Sièger en tant que juré lorsque l'on vous le demande est ",
+       "a":"n'est pas une obligation ",
+       "b":"une obligation qui vient avec la citoyenneté ",
+       "c":"n'est pas légalement requis ",
+       "d":"facultatif ",
+       "answer":"b"
     },
     {
-        "id": 13,
-        "category": "economy",
-        "question": "Où se trouve l'Arche de la Paix ?",
-        "a": "À Ottawa, Ontario, Canada.",
-        "b": "À Washington, É.-U.",
-        "c": "À Toronto, Ontario, Canada.",
-        "d": "À Montreal, Quebec, Canada.",
-        "answer": "b"
+       "id": 13,
+       "question":"Qu'est-ce qu'un jury? ",
+       "a":"Un groupe de gens qui connaissent la loi ",
+       "b":"Un groupe d'avocats ",
+       "c":"Un groupe de citoyens impartiaux ",
+       "d":"Un groupe de juges",
+       "answer":"c"
+    },
+    {
+       "id":14,
+       "question":"Quelles sont les principales fonctions du Cabinet?",
+       "a":"Préparer le budget et proposer de nouvelles lois à mettre en oeuvre ",
+       "b":"La défense ",
+       "c":"Les resources naturelles ",
+       "d":"La navigation",
+       "answer":"a"
+    },
+    {
+       "id":15,
+       "question":"Lequel n'est PAS une responsabilité municipale (locale)? ",
+       "a":"Le Déneigement ",
+       "b":"L'Éducation ",
+       "c":"Les Routes ",
+       "d":"Lutte contre les incendies ",
+       "answer":"b"
+    },
+    {
+       "id":16,
+       "question":"Aujourd'hui, la diversité enrichit la vie des canadiens. Oû se reflète-t-elle le plus ",
+       "a":"Dans les montagnes ",
+       "b":"Dans les villes ",
+       "c":"Dans les zones de campagne ",
+       "d":"Dans les métropoles ",
+       "answer":"b"
+    },
+    {
+       "id":17,
+       "question":"Qui est le chef d'état du Canada?",
+       "a":"Le premier ministre ",
+       "b":"Le gouverneur général du Canada ",
+       "c":"Sa majesté le roi charles III",
+       "d":"Le lieutenant gouverneur ",
+       "answer":"c"
+    },
+    {
+       "id":18,
+       "question":"Que Dieu protège le Roi (la Reine) est ",
+       "a":"L'inscription des armoiries canadiennes ",
+       "b":"l'Hymne Royal du Canada ",
+       "c":"l'hymne national du Canada ",
+       "d":"La devise canadienne",
+       "answer":"b"
+    },
+    {
+       "id":19,
+       "question":"Quel est le plus haut tribunal du Canada? ",
+       "a":"La cour du Sénat du Canada ",
+       "b":"La Cour suprême du Canada ",
+       "c":"La cour Du Roi ",
+       "d":"La cour d'assises du Canada ",
+       "answer":"b"
+    },
+    {
+       "id":20,
+       "question":"Obéir à la loi ",
+       "a":"est un droit ",
+       "b":"est une responsabilité ",
+       "answer":"b"
     }
-]
+ ]
