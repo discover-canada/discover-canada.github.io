@@ -1,48 +1,132 @@
 [
     {
-    "id": 1,
-    "question": "What is the capital of Belgium?",
-    "a": "Vienna",
-    "b": "Berlin",
-    "c": "Brussels",
-    "answer": "c"
-},
-{
-    "id": 2,
-    "question": "What is the capital of Australia?",
-    "a": "Vienna",
-    "b": "Canberra",
-    "c": "Brussels",
-    "d": "Prague",
-    "answer": "b"
-},
-
-{
-    "id": 3,
-    "question": "Which of the following countries is not a part of Melanesia region in the pacific ocean?",
-    "a": "Vanuatu",
-    "b": "Solomon Islands",
-    "c": "Fiji",
-    "d": "Kiribati",
-    "answer": "d"
-},
-{
-    "id": 4,
-    "question": "Which day is celebrated as International Literacy Day ?",
-    "a": "8 September",
-    "b": "7 July",
-    "c": "19 April",
-    "d": "28 June",
-    "answer": "a"
-},
-{
-    "id": 5,
-    "question": "Which day is celebrated as World Environment Day?",
-    "a": "16 May",
-    "b": "5 June",
-    "c": "17July",
-    "d": "18 December",
-    "answer": "b"
-}
-
+        "id": 1,
+        "category": "economy",
+        "question": "Quand le Canada a-t-il commencé à commercer librement avec les États-Unis ?",
+        "a": "En 1980.",
+        "b": "En 1988",
+        "c": "En 1990.",
+        "d": "En 2000",
+        "answer": "b"
+    },
+    {
+        "id": 2,
+        "category": "economy",
+        "question": "Trois pays sont membres de l'ALENA (Accord de libre-échange nord-américain). Lesquels ?",
+        "a": "Mexique, États-Unis et Canada.",
+        "b": "France, États-Unis et Canada.",
+        "c": "Royaume-Uni, États-Unis et Canada.",
+        "d": "Chine, États-Unis et Canada.",
+        "answer": "a"
+    },
+    {
+        "id": 3,
+        "category": "economy",
+        "question": "Nommez quelques pays du G7",
+        "a": "États-Unis, Allemagne, Royaume-Uni, Italie, France, Japon et Canada.",
+        "b": "États-Unis, Chine, Royaume-Uni, Italie, France, Japon et Canada.",
+        "c": "États-Unis, Russie, Royaume-Uni, Italie, France, Japon et Canada.",
+        "d": "États-Unis, Allemagne, Royaume-Uni, Chine, France, Japon et Canada.",
+        "answer": "a"
+    },
+    {
+        "id": 4,
+        "category": "economy",
+        "question": "Quels sont les trois principaux secteurs industriels de l'économie canadienne ?",
+        "a": "Secteur des services, secteur manufacturier, l'agriculture",
+        "b": "Secteur des services, l'agriculture, secteur des ressources naturelles.",
+        "c": "Secteur des services, secteur manufacturier, secteur des ressources naturelles.",
+        "d": "l'agriculture, secteur manufacturier, secteur des ressources naturelles.",
+        "answer": "c"
+    },
+    {
+        "id": 5,
+        "category": "economy",
+        "question": "Quelle est la proportion de Canadiens et Canadiennes qui occupent présentement un emploi dans le secteur des services ?",
+        "a": "10%",
+        "b": "20%",
+        "c": "50%",
+        "d": "Plus de 75%.",
+        "answer": "d"
+    },
+    {
+        "id": 6,
+        "category": "economy",
+        "question": "Quel pays est le plus grand partenaire commercial international du Canada ?",
+        "a": "La France",
+        "b": "Les États-Unis.",
+        "c": "La Chine",
+        "d": "Le Royaume-Uni",
+        "answer": "b"
+    },
+    {
+        "id": 7,
+        "category": "economy",
+        "question": "Quel genre de marchandises contribuent en grande partie aux exportations du Canada ?",
+        "a": "Produits des ressources naturelles.",
+        "b": "Produits Agricoles",
+        "c": "manufacturier",
+        "d": "Les services",
+        "answer": "a"
+    },
+    {
+        "id": 8,
+        "category": "economy",
+        "question": "Quel pays est le plus grand partenaire commercial des États-Unis ?",
+        "a": "La Chine",
+        "b": "Le Canada.",
+        "c": "La France",
+        "d": "Le Royaume-Uni",
+        "answer": "b"
+    },
+    {
+        "id": 9,
+        "category": "economy",
+        "question": "Quelle proportion des marchandises exportées par le Canada vont aux États-Unis ?",
+        "a": "30%.",
+        "b": "50%.",
+        "c": "75%.",
+        "d": "90%.",
+        "answer": "c"
+    },
+    {
+        "id": 10,
+        "category": "economy",
+        "question": "Deux pays entretiennent la plus importante relation commerciale bilatérale du monde. Lesquels ?",
+        "a": "Le Canada et les États-Unis.",
+        "b": "Le Canada et la France",
+        "c": "Le Canada et le Royaume-Uni",
+        "d": "Le Canada et la Chine",
+        "answer": "a"
+    },
+    {
+        "id": 11,
+        "category": "economy",
+        "question": "Quelle frontière est « la plus longue frontière non défendue du monde ».",
+        "a": "La frontière entre les États-Unis et le Mexique",
+        "b": "La frontière entre le Canada et les États-Unis.",
+        "c": "La frontière entre la Chine et la Russie",
+        "d": "La frontière entre la Chine et l'Inde",
+        "answer": "b"
+    },
+    {
+        "id": 12,
+        "category": "economy",
+        "question": "Quels mots sont écrits sur l'Arche de la paix aux États-Unis ?",
+        "a": "Children of a common mother” (Enfants d'une même mère) et “Brethren dwelling together in unity (Deux frères vivant ensemble dans l'harmonie).",
+        "b": "Rien",
+        "c": "Welcome to Canadians",
+        "d": "Welcome to Americans",
+        "answer": "a"
+    },
+    {
+        "id": 13,
+        "category": "economy",
+        "question": "Où se trouve l'Arche de la Paix ?",
+        "a": "À Ottawa, Ontario, Canada.",
+        "b": "À Washington, É.-U.",
+        "c": "À Toronto, Ontario, Canada.",
+        "d": "À Montreal, Quebec, Canada.",
+        "answer": "b"
+    }
 ]

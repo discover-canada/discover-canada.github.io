@@ -1,51 +1,68 @@
-<div class="card">
-    <div class="card-header">
-      <h3>Featured</h3>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title"> {{counter+1}}. {{currentQuestion}}</h5>
-      <div class="card-text">
-          <!-- Default radio -->
-          <div class="form-check">
-            <input mdbRadio class="form-check-input" type="radio"
-              [(ngModel)]="options[this.currentIndex]" name="option1" id="option1" value="a"
-            />
-            <label class="form-check-label" for="option1"> {{ option1 }} </label>
-          </div>
-          <!-- Default checked radio -->
-          <div class="form-check">
-            <input mdbRadio class="form-check-input" type="radio"
-              [(ngModel)]="options[this.currentIndex]" name="option2" value="b" id="option2"              
-            />
-            <label class="form-check-label" for="option2">{{ option2 }}</label>
-          </div>
-          <div class="form-check" *ngIf="option3 != null">
-            <input mdbRadio class="form-check-input" type="radio" 
-            [(ngModel)]="options[this.currentIndex]" name="option3" value="c" id="options3"              
-            />
-            <label class="form-check-label" for="options3"> {{ option3 }}</label>    
-          </div>
-          <div class="form-check" *ngIf="option4 != null">
-            <input mdbRadio class="form-check-input" type="radio"
-              [(ngModel)]="options[this.currentIndex]" name="option4" value="d" id="options4"              
-            />
-            <label class="form-check-label" for="options4">{{ option4 }}</label>   
-          </div>
-      </div>
+<h1>Quiz</h1>
 
+<div class="row g-3" *ngIf="allQuestions.length > 0">
 
-      <br>
-      <div class="alert alert-success" role="alert" *ngIf="panelsts">
-         Your Score is {{ rightAnswer}} out of {{ allQuestions.length }}
-      </div>
-      <button type="button" class="btn btn-secondary" [disabled]="counter==0" (click)="prevQuestion()" >Previous</button>&nbsp;&nbsp;
-      <button type="button" class="btn btn-primary" [disabled]="counter==allQuestions.length-1" *ngIf="counter!=allQuestions.length-1" (click)="nextQuestion()">Next</button>      
-      <button type="button" class="btn btn-primary" *ngIf="counter==allQuestions.length-1" (click)="finish()">Finish</button>      
-    </div>
+  <div class="col-12">
+
+    <button mat-raised-button aria-label="Replay Restart" type="button" (click)="restart()">
+      <mat-icon>replay</mat-icon> Restart
+    </button>
+
+    <button mat-raised-button aria-label="Show the correct answer" type="button" (click)="showCorrectAnswer()">
+      <mat-icon>check</mat-icon> Show answer
+    </button>
+
   </div>
 
+  <div class="col-12">
+    
 
+    <mat-card class="app-card">
+ 
+      <mat-card-content>
+        <h3>{{counter+1}}. {{currentQuestion}}</h3>
+    
+        <div>
+    
+          <mat-radio-group aria-labelledby="Select an option" class="app-radio-group" [(ngModel)]="options[this.currentIndex]" required>
+            <mat-radio-button class="app-radio-button" name="option1" value="a"  [checked]="currentAnswer == 'a' && canShowCorrectAnswer">
+             <div [ngClass]="{'app-correct-answer': currentAnswer=='a' && canShowCorrectAnswer}">A. {{ option1 }}</div>
+            </mat-radio-button>
+            <mat-radio-button class="app-radio-button" name="option2"value="b"  [checked]="currentAnswer == 'b' && canShowCorrectAnswer">
+              <div [ngClass]="{'app-correct-answer': currentAnswer=='b' && canShowCorrectAnswer}">B. {{ option2 }}</div>
+            </mat-radio-button>
+            <mat-radio-button class="app-radio-button" name="option3" value="c" *ngIf="option3 != null" [checked]="currentAnswer == 'c' && canShowCorrectAnswer">
+              <div [ngClass]="{'app-correct-answer': currentAnswer=='c' && canShowCorrectAnswer}">C. {{ option3 }}</div>
+            </mat-radio-button>
+            <mat-radio-button class="app-radio-button"name="option4" value="d" *ngIf="option4 != null" [checked]="currentAnswer == 'd' && canShowCorrectAnswer">
+              <div [ngClass]="{'app-correct-answer': currentAnswer=='d' && canShowCorrectAnswer}">D. {{ option4 }}</div>
+            </mat-radio-button>
+          </mat-radio-group>
+    
+        </div>
+    
+      
+      </mat-card-content>
+      <mat-card-actions>
+      
+        <button mat-icon-button aria-label="Previous" type="button" [disabled]="counter==0"  *ngIf="!isFinish" (click)="prevQuestion()">
+          <mat-icon>navigate_before</mat-icon>
+        </button>
 
+        <button mat-icon-button aria-label="Next" type="button" *ngIf="counter!=allQuestions.length-1" (click)="nextQuestion()">
+          <mat-icon>navigate_next</mat-icon>
+        </button>
 
+        <button mat-icon-button aria-label="Finish" type="button" [disabled]="isFinish" *ngIf="counter==allQuestions.length-1" (click)="finish()">
+          <mat-icon>save</mat-icon>
+        </button>
 
-<pre>{{ questions$ | async | json }}</pre>
+        <span class="app-spacer"></span>
+    
+      </mat-card-actions>
+      
+    </mat-card>
+
+  </div>
+  
+</div>
