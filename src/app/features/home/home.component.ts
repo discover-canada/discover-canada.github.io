@@ -12,11 +12,12 @@ import {MatExpansionModule} from '@angular/material/expansion';
     CommonModule,
     MatCardModule,
     MatExpansionModule,
-    
+
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  assetsUrl = 'https://github.com/discover-canada/discover-canada.github.io/raw/main/src';
 
 }
