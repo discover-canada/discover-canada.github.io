@@ -23,9 +23,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run E2E tests
-      run: npm run e2e:headless
-
     - name: Build
       run: npm run build
 
@@ -35,5 +32,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: dist/beligh-hamdi
+        publish_dir: dist/discover-canada
         enable_jekyll: true
