@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { environment } from 'src/environments/environment.development';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @Component({
   selector: 'app-home',
@@ -12,12 +14,14 @@ import {MatExpansionModule} from '@angular/material/expansion';
     CommonModule,
     MatCardModule,
     MatExpansionModule,
-
+    PdfViewerModule,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  assetsUrl = 'https://github.com/discover-canada/discover-canada.github.io/raw/main/src';
+  assetsUrl = environment.assetsUrl;
+
+  src = 'assets/data/decouvrir.pdf';
 
 }

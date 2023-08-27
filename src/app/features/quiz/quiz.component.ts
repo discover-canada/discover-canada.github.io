@@ -60,14 +60,20 @@ export class QuizComponent  implements OnInit  {
 
   ngOnInit(): void {
 
-   
-    this.questions$ =this._http.get<any[]>('assets/data/questions.json').pipe(
-       mergeAll(),
-     //  tap(val => console.log('BEFORE MAP', val)),
-       filter((item: any) => item.category === this.categoryId),
-     //  tap(val => console.log('AFTER MAP', val)),
-       share(),
-    );
+    if(this.categoryId == 'all') {
+      this.questions$ =this._http.get<any[]>('assets/data/questions.json').pipe(
+        mergeAll(),
+        share(),
+      );
+    } else {
+      this.questions$ =this._http.get<any[]>('assets/data/questions.json').pipe(
+        mergeAll(),
+        filter((item: any) => item.category === filter),
+        share(),
+     );
+    }
+
+    
 
     this.loadQuestions();
 

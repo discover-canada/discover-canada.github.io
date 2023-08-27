@@ -1,125 +1,33 @@
-<h1>Home</h1>
+
 
 <div class="row g-3">
 
+  <div class="col-12">
+    <div id="outerContainer">
+      <div class="pdf-container">
+        <pdf-viewer
+          [src]="src"
+          [rotation]="0"
+          [original-size]="false"
+          [show-all]="true"
+          [fit-to-page]="false"
+          [zoom]="1"
+          [zoom-scale]="'page-width'"
+          [stick-to-page]="false"
+          [render-text]="true"
+          [external-link-target]="'blank'"
+          [autoresize]="true"
+          [show-borders]="false"
+        ></pdf-viewer>
+      </div>
+    </div>
+  </div>
+  
   <div class="col-12">
 
     <mat-accordion>
       
     
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Hymnes du Canada Version française
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <p>chantée par Nathalie Paulin</p>
-
-        <div>
-          <audio controls class="w-100">
-            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-fra.mp3'" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-        <br>
-       
-        <p> « Ô Canada! Terre de nos aïeux, </p>
-        <p> front est ceint de fleurons glorieux!</p>
-    
-        <br>
-        <p>Car ton bras sait porter l'épée, </p>
-        <p>sait porter la croix!</p>
-    
-        <br>
-        <p>Ton histoire est une épopée</p>
-        <p>Des plus brillants exploits.</p>
-    
-        <br>
-        <p>Et ta valeur, de foi trempée, </p>
-        <p>Protégera nos foyers et nos droits.</p>
-    
-        <br>
-        <p>Protégera nos foyers et nos droits. »</p>
-      </mat-expansion-panel>
-
-
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Hymnes du Canada Version anglaise
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-
-        <p>chantée par Julie Nesrallah</p>
-
-        <div>
-          <audio controls class="w-100">
-            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-eng.mp3'" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-        <br>
-
-        <p>O Canada!</p>  
-        <p>Our home and native land!</p>   
-        <p>True patriot love in all of us command.</p>   
-
-        <br>
-        <p> With glowing hearts we see thee rise,</p>  
-        <p> The True North strong and free!</p>
-
-        <br>
-        <p>From far and wide,</p>  
-        <p>O Canada, we stand on guard for thee.</p>   
-
-        <br>
-        <p>God keep our land glorious and free!</p>   
-        <p> O Canada, we stand on guard for thee.</p> 
-
-        <br>
-        <p> O Canada, we stand on guard for thee.</p> 
-      </mat-expansion-panel>
-
-
-      <mat-expansion-panel>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Hymnes du Canada Version bilingue
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <p>chantée par Julie Nesrallah et Nathalie Paulin</p>
-
-        <div>
-          <audio controls class="w-100">
-            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-billingual.mp3'" type="audio/mpeg">
-          Your browser does not support the audio element.
-          </audio>
-        </div>
-        <br>
-
-        
-
-
-        <p>O Canada! Our home and native land!</p>
-        <p>True patriot love in all of us command,</p>
-
-        <br>
-        <p>Car ton bras sait porter l'épée,</p>
-        <p>Il sait porter la croix!</p>
-
-        <br>
-        <p>Ton histoire est une épopée</p>
-        <p>Des plus brillants exploits,</p>
-        
-        <br>
-        <p>God keep our land glorious and free!</p>
-        <p>O Canada, we stand on guard for thee.</p>
-        
-        <br>
-        <p>O Canada, we stand on guard for thee.</p>
-      </mat-expansion-panel>
-
-
       <mat-expansion-panel>
         <mat-expansion-panel-header>
           <mat-panel-title>
@@ -157,19 +65,128 @@
       
       </mat-expansion-panel>
       
+      
+      
+      
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Hymnes du Canada version française
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>chantée par Nathalie Paulin</p>
+
+        <div>
+          <audio controls class="w-100">
+            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-fra.mp3'" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+        <br>
+       
+        <p> « Ô Canada! Terre de nos aïeux, </p>
+        <p> front est ceint de fleurons glorieux!</p>
+    
+        <br>
+        <p>Car ton bras sait porter l'épée, </p>
+        <p>sait porter la croix!</p>
+    
+        <br>
+        <p>Ton histoire est une épopée</p>
+        <p>Des plus brillants exploits.</p>
+    
+        <br>
+        <p>Et ta valeur, de foi trempée, </p>
+        <p>Protégera nos foyers et nos droits.</p>
+    
+        <br>
+        <p>Protégera nos foyers et nos droits. »</p>
+      </mat-expansion-panel>
+
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Hymnes du Canada version anglaise
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <p>chantée par Julie Nesrallah</p>
+
+        <div>
+          <audio controls class="w-100">
+            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-eng.mp3'" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+        <br>
+
+        <p>O Canada!</p>  
+        <p>Our home and native land!</p>   
+        <p>True patriot love in all of us command.</p>   
+
+        <br>
+        <p> With glowing hearts we see thee rise,</p>  
+        <p> The True North strong and free!</p>
+
+        <br>
+        <p>From far and wide,</p>  
+        <p>O Canada, we stand on guard for thee.</p>   
+
+        <br>
+        <p>God keep our land glorious and free!</p>   
+        <p> O Canada, we stand on guard for thee.</p> 
+
+        <br>
+        <p> O Canada, we stand on guard for thee.</p> 
+      </mat-expansion-panel>
+
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Hymnes du Canada version bilingue
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>chantée par Julie Nesrallah et Nathalie Paulin</p>
+
+        <div>
+          <audio controls class="w-100">
+            <source [src]="assetsUrl + '/assets/data/_content_dam_pch_audios_services_anthems-canada_O-Canada-billingual.mp3'" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+        <br>
+
+        <p>O Canada! Our home and native land!</p>
+        <p>True patriot love in all of us command,</p>
+
+        <br>
+        <p>Car ton bras sait porter l'épée,</p>
+        <p>Il sait porter la croix!</p>
+
+        <br>
+        <p>Ton histoire est une épopée</p>
+        <p>Des plus brillants exploits,</p>
+        
+        <br>
+        <p>God keep our land glorious and free!</p>
+        <p>O Canada, we stand on guard for thee.</p>
+        
+        <br>
+        <p>O Canada, we stand on guard for thee.</p>
+      </mat-expansion-panel>
+
+
+    
+      
     </mat-accordion>
     
-
    
   </div>
 
 
 
-
-
-
-
-  
 </div>
 
 

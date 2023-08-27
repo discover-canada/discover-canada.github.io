@@ -25,6 +25,9 @@ export class QuizPageComponent {
     {
       name: 'Régions',
       link: 'regions',
+    }, {
+      name: 'Divers',
+      link: 'all',
     }
   ];
   
